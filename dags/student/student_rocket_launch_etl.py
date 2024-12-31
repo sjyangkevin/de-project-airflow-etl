@@ -65,8 +65,8 @@ def _download_launch_event_data(**context):
     # upload data of the same key.
     try:
         # TODO: 
-        # Set the value for the following three variables to store the data. The data needs to be stored 
-        # under `raw/launch/` folder (or prefix, in the context of S3), under the bucket named `datalake`
+        # Set the value for the following two variables to store the data. The data needs to be stored 
+        # under `raw/launch` folder (or prefix, in the context of S3), under the bucket named `datalake`
         s3_prefix   = None
         s3_key      = f"{s3_prefix}/{start_date}.json"
         bucket_name = None
